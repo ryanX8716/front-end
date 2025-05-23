@@ -1,3 +1,7 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -80,7 +84,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("img/bg.jpg");
 	padding: 40px 0;
 }
 
@@ -176,8 +180,4 @@ td, th {
 	width: 120px;
 	float:left;
 	margin: 0 20px 20px 0;
-}
-
-.imagembeneficios{
-	width:60%;
 }
