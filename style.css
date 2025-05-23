@@ -1,10 +1,5 @@
-body{
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0)
-}
-
 header {
-	background: #474747;
+	background: #BBBBBB;
 	padding: 20px 0;
 }
 
@@ -27,42 +22,45 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: aliceblue;
+	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #eba61d;
+	color: #C78C19;
 	text-decoration: underline;
 }
 
 .produtos {
-	width: 1000px;
+	width: 940px;
 	margin: 0 auto;
-	padding: 60px 0;
+	padding: 50px 0;
 }
 
 .produtos li {
-	color: black;
 	display: inline-block;
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
-	padding: 30px;
 	margin: 0 1.5%;
+	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid #000000;
 	border-radius: 10px;
 }
 
 .produtos li:hover {
-	border-color: darkorange;
+	border-color: #C78C19;
 }
 
-.lP:active {
+.produtos li:active {
 	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
 .produtos h2 {
@@ -82,7 +80,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("img/bg.jpg");
+	background: url("bg.jpg");
 	padding: 40px 0;
 }
 
@@ -114,25 +112,11 @@ form label, form legend {
 	width: 50%;
 }
 
-
-.lPr{
-	text-transform: uppercase;
-	color: rgb(0, 0, 0);
-	font-weight: bold;
-	font-size: 22px;
-}
-
-.lPr:hover {
-	color: darkorange;
-	text-decoration: underline;
-}
-
 .checkbox {
 	margin: 20px 0;
 }
 
 .enviar {
-	border-radius: 10px;
 	width:40%;
 	padding: 15px 0;
 	background: orange;
@@ -156,20 +140,44 @@ table {
 
 thead {
 	background: #555555;
-	color: rgb(255, 255, 255);
+	color: white;
 	font-weight: bold;
 }
 
 td, th {
-	border: 1px solid #fdfcfc;
+	border: 1px solid #000000;
 	padding: 8px 15px;
 }
 
-.select{
-	border-radius: 5pt;
-	color: aliceblue;
-	background-color: #474747;
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
+.banner{
+	width:100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin:0 0  1em;
+	clear:left;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float:left;
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios{
+	width:60%;
 }
