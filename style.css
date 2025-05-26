@@ -214,6 +214,6 @@ td, th {
 .itens{
 	line-height: 1.5;
 }
-.itens: :first-child{
+.itens :first-child{
 	font-weight: bold;
 }
